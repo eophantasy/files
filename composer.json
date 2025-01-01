@@ -3,6 +3,17 @@
     "description": "The package to work with files, directories and its content via true OOP classes.",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:eophantasy/types.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:eophantasy/io.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Eophantasy\\Files\\": "src/"
@@ -20,9 +31,11 @@
         }
     ],
     "require": {
-        "php": ">=7.3"
+        "php": ">=8.0",
+        "eophantasy/io": "dev-master",
+        "eophantasy/types": "dev-main"
     },
     "require-dev": {
-        "phpunit/phpunit": "^11.4"
+        "phpunit/phpunit": "^11.5"
     }
 }
