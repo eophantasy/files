@@ -3,6 +3,17 @@
     "description": "The package to work with files, directories and its content via true OOP classes.",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:eophantasy/types.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:eophantasy/io.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Eophantasy\\Files\\": "src/"
